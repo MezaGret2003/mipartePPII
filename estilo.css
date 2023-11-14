@@ -1,0 +1,59 @@
+span{
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 14ch;
+
+    animation: typing 2s steps(12),
+    blink .5s infinite step-end alternate ;
+    overflow: hidden;
+}
+
+@keyframes typing {
+    from { width: 0; }
+}
+
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+
+.fondo{
+    background-image: url(./img/fondo-tecnologia-cibernetica_23-2148390330.avif);
+    background-size: cover;
+}
+
+#sistp{
+
+    display: block;
+    font-family: monospace;
+    white-space: nowrap;
+    border-right: 4px solid;
+    width: 18ch;
+    
+ animation: typing 2s steps(12),
+ blink .5s infinite step-end alternate ;
+ overflow: hidden;
+}
+    
+@keyframes typing {
+ from { width: 0; }
+}
+    
+@keyframes blink {
+  50% {border-color: transparent;}
+}
+
+.nivel0{
+    border: ridge 5px red;
+}
+.nivel1{
+    border: dotted 7px red;
+}
+
+.sistact{
+    border: dashed 5px blue;
+}
+.sistact2{
+    border: double 7px blue;
+}
